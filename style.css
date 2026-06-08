@@ -1,0 +1,56 @@
+body{
+  font-family:Arial,sans-serif;
+  background:#f5f7fa;
+  margin:0;
+}
+
+header{
+  background:#111827;
+  color:white;
+  padding:20px;
+  text-align:center;
+}
+
+.container{
+  width:80%;
+  margin:auto;
+  margin-top:40px;
+  text-align:center;
+}
+
+#slots{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(120px,1fr));
+  gap:20px;
+  margin-top:30px;
+}
+
+.slot{
+  background:white;
+  padding:30px;
+  border-radius:10px;
+  box-shadow:0 2px 8px rgba(0,0,0,0.1);
+  font-size:20px;
+}
+
+.available{
+  border:3px solid green;
+}
+
+.booked{
+  border:3px solid red;
+}
+
+button{
+  margin-top:30px;
+  padding:12px 25px;
+  border:none;
+  background:#2563eb;
+  color:white;
+  border-radius:8px;
+  cursor:pointer;
+}
+
+button:hover{
+  background:#1d4ed8;
+}
